@@ -1,0 +1,5 @@
+eureka:
+  client:
+    register-with-eureka: true
+    refresh:
+      enable: true

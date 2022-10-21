@@ -1,0 +1,15 @@
+server:
+  port: 9296
+
+spring:
+  profiles:
+    active: git
+  application:
+    name: CONFIGURATION-SERVER
+  cloud:
+    config:
+      server:
+        git:
+          default-label: main
+          uri: https://github.com/muchiri08/config-server
+          clone-on-start: true    

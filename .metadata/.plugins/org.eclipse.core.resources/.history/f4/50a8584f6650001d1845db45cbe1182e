@@ -1,0 +1,5 @@
+package com.muchiri.apigateway.controller;
+
+public class FallBackController {
+
+}
